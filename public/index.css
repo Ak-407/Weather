@@ -94,7 +94,24 @@ nav{
     .top{
         margin-top: 200px;
         line-height: 200px;
+        opacity: 100%;
     }
+      .weather-container {
+    font-family: 'Roboto', sans-serif;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 86vh;
+    padding: 0px 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 70px;
+    background-color: cornsilk;
+    width: 900px;
+    opacity: 90%;
+}
 
 
   }
