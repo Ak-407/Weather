@@ -21,7 +21,7 @@ export default function Weather() {
   let form = (
     <div>
       <form onSubmit={displayTemperature}>
-        <input type="text" onChange={handleChange} />
+        <input placeholder="Name a State" type="text" onChange={handleChange} />
         <input type="submit" value="Search" />
       </form>
     </div>
